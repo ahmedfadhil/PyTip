@@ -1,0 +1,2 @@
+This repository contains commonly asked data structure interview questions. The answers provided are implemented in python.
+Check out this link for the full resources: https://medium.freecodecamp.org/the-top-data-structures-you-should-know-for-your-next-coding-interview-36af0831f5e3
