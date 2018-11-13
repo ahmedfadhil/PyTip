@@ -24,8 +24,7 @@ def printGivenLevel(root, level):
     if root is None:
         return
     if level == 1:
-        print
-        "%d" % (root.data),
+        print("%d" % (root.data))
     elif level > 1:
         printGivenLevel(root.left, level - 1)
         printGivenLevel(root.right, level - 1)
@@ -59,42 +58,55 @@ root.right = Node(3)
 root.left.left = Node(4)
 root.left.right = Node(5)
 
-print
-"Level order traversal of binary tree is -"
+print("Level Order Traversal of binary tree is -")
 printLevelOrder(root)
 
 
 # METHOD 2 (Use Queue)
 
+# Python program to print level order traversal using Queue
 
+# A node structure
 class Node:
+    # A utility function to create a new node
     def __init__(self, key):
         self.data = key
         self.left = None
         self.right = None
 
-    def printLevelOrder(root):
-        # base case
-        if root is None:
-            return
-        # create empty queue
-        queue = []
-        queue.append(root)
-        while len(queue) > 0:
-            print(queue[0].data)
-            node = queue.pop(0)
 
-            if node.left is not None:
-                queue.append(node.left)
-            if node.right is not None:
-                queue.append(node.right)
+# Iterative Method to print the height of binary tree
+def printLevelOrder(root):
+    # Base Case
+    if root is None:
+        return
+
+    # Create an empty queue for level order traversal
+    queue = []
+
+    # Enqueue Root and initialize height
+    queue.append(root)
+
+    while (len(queue) > 0):
+        # Print front of queue and remove it from queue
+        print(queue[0].data)
+        node = queue.pop(0)
+
+        # Enqueue left child
+        if node.left is not None:
+            queue.append(node.left)
+
+            # Enqueue right child
+        if node.right is not None:
+            queue.append(node.right)
 
 
-# Driver code
+# Driver Program to test above function
 root = Node(1)
 root.left = Node(2)
 root.right = Node(3)
 root.left.left = Node(4)
 root.left.right = Node(5)
 
+print("Level Order Traversal of binary tree is -")
 printLevelOrder(root)
