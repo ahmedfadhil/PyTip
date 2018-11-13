@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef2e9f9c-b269-4a43-b141-c930af4d8d8c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/BreadthFirstSearch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DepthFirstSearch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LevelOrderTreeTraversal.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,56 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="link_list_exer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/link_list_exer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linked_list_loop_detect.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linked_list_loop_detect.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1767">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linked_list_nth_node.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linked_list_nth_node.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linked_list_remove_duplicates.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linked_list_remove_duplicates.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BreadthFirstSearch.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BreadthFirstSearch.py">
+      <file leaf-file-name="LevelOrderTreeTraversal.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LevelOrderTreeTraversal.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="803">
-              <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DepthFirstSearch.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DepthFirstSearch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -104,6 +57,7 @@
         <option value="$PROJECT_DIR$/linked_list_remove_duplicates.py" />
         <option value="$PROJECT_DIR$/BreadthFirstSearch.py" />
         <option value="$PROJECT_DIR$/DepthFirstSearch.py" />
+        <option value="$PROJECT_DIR$/LevelOrderTreeTraversal.py" />
       </list>
     </option>
   </component>
@@ -186,9 +140,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="7" visible="true" weight="0.3153431" />
+      <window_info anchor="bottom" id="Python Console" order="7" visible="true" weight="0.3153431" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2775636" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24842371" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24842371" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -477,20 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linked_list_nth_node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linked_list_remove_duplicates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BreadthFirstSearch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="803">
@@ -502,6 +442,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_list_remove_duplicates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_list_nth_node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LevelOrderTreeTraversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
         </state>
       </provider>
     </entry>
